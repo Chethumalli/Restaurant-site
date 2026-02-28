@@ -18,10 +18,6 @@ A modern, responsive website designed to showcase a restaurant's menu, ambiance,
 * **CSS3:** Custom styles using Flexbox and CSS Grid for layout management.
 * **Google Fonts:** Integrated typography for a premium feel.
 
-## 📸 Preview
-> **Tip:** Replace the link below with a screenshot from your own project folder.
-![Project Preview](https://via.placeholder.com/800x400?text=Insert+Your+Restaurant+Screenshot+Here)
-
 ## 📦 Getting Started
 To get a local copy up and running, follow these simple steps:
 
@@ -40,3 +36,4 @@ To get a local copy up and running, follow these simple steps:
 │   ├── img/            # Food and interior photography
 │   └── js/             # Interactive elements (if any)
 └── README.md           # Project documentation
+
