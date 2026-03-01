@@ -37,10 +37,11 @@ To get a local copy up and running, follow these simple steps:
 │   └── js/             # Interactive elements (if any)
 └── README.md           # Project documentation
 
-<h4>👨‍💻 Author</h4>
+👨‍💻 Author
 
 **Chethan C Malli**  
 AI & ML Enthusiast  
 Building scalable AI systems 🚀  
 
 GitHub: https://github.com/Chethumalli  
+
