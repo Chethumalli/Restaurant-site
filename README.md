@@ -5,7 +5,7 @@
 
 A modern, responsive website designed to showcase a restaurant's menu, ambiance, and location. This project focuses on a clean user interface and seamless navigation for hungry customers.
 
----
+--
 
 ## 🚀 Features
 * **Responsive Design:** Optimized for mobile, tablet, and desktop viewing.
@@ -44,4 +44,3 @@ AI & ML Enthusiast
 Building scalable AI systems 🚀  
 
 GitHub: https://github.com/Chethumalli  
-
