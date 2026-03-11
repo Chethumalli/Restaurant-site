@@ -36,6 +36,7 @@ To get a local copy up and running, follow these simple steps:
 │   ├── img/            # Food and interior photography
 │   └── js/             # Interactive elements (if any)
 └── README.md           # Project documentation
+
 ```
 👨‍💻 Author
 
@@ -44,4 +45,5 @@ AI & ML Enthusiast
 Building scalable AI systems 🚀  
 
 GitHub: https://github.com/Chethumalli  
+
 
