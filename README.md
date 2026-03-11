@@ -29,6 +29,7 @@ To get a local copy up and running, follow these simple steps:
     Navigate to the folder and open `index.html` in your browser.
 
 ## 📁 Project Structure
+
 ```text
 ├── index.html          # Main homepage
 ├── assets/
@@ -45,5 +46,6 @@ AI & ML Enthusiast
 Building scalable AI systems 🚀  
 
 GitHub: https://github.com/Chethumalli  
+
 
 
