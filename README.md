@@ -1,51 +1,155 @@
-# 🍽️ Restaurant Site
+# 🍽️ Restaurant Website
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+A modern and responsive restaurant website built using **HTML, CSS, and JavaScript**. This project provides an elegant online presence for restaurants, allowing customers to explore menus, discover special dishes, learn about the restaurant, and get in touch easily.
 
-A modern, responsive website designed to showcase a restaurant's menu, ambiance, and location. This project focuses on a clean user interface and seamless navigation for hungry customers.
-
---
+---
 
 ## 🚀 Features
-* **Responsive Design:** Optimized for mobile, tablet, and desktop viewing.
-* **Interactive Menu:** Structured categories for appetizers, mains, and desserts.
-* **Booking Section:** A clean layout for customers to request reservations.
-* **Location Integration:** Clear contact information and operational hours.
+
+- 🍕 Attractive and modern restaurant landing page
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 📖 Interactive food menu section
+- 🏆 Featured dishes showcase
+- 👨‍🍳 About Us section
+- 📍 Contact and location information
+- 🖼️ High-quality food imagery
+- 🎨 Smooth animations and transitions
+- ⚡ Fast and lightweight website
+- 🌐 Cross-browser compatibility
+
+---
 
 ## 🛠️ Tech Stack
-* **HTML5:** For semantic structure and SEO-friendly markup.
-* **CSS3:** Custom styles using Flexbox and CSS Grid for layout management.
-* **Google Fonts:** Integrated typography for a premium feel.
 
-## 📦 Getting Started
-To get a local copy up and running, follow these simple steps:
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Styling:** CSS Flexbox & Grid
+- **Icons:** Font Awesome
+- **Fonts:** Google Fonts
 
-1.  **Clone the repo**
-    ```bash
-    git clone [https://github.com/Chethumalli/Restaurant-site.git](https://github.com/Chethumalli/Restaurant-site.git)
-    ```
-2.  **Open the project**
-    Navigate to the folder and open `index.html` in your browser.
+---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```text
-├── index.html          # Main homepage
-├── assets/
-│   ├── css/            # Custom stylesheets
-│   ├── img/            # Food and interior photography
-│   └── js/             # Interactive elements (if any)
-└── README.md           # Project documentation
-
+```bash
+Restaurant-site/
+│
+├── images/
+│   ├── hero.jpg
+│   ├── dishes/
+│   └── gallery/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+├── about.html
+├── menu.html
+├── contact.html
+└── README.md
 ```
-👨‍💻 Author
 
-**Chethan C Malli**  
-AI & ML Enthusiast  
-Building scalable AI systems 🚀  
+---
 
-GitHub: https://github.com/Chethumalli  
+## ⚙️ Installation
 
+### 1. Clone the Repository
 
+```bash
+git clone https://github.com/Chethumalli/Restaurant-site.git
+cd Restaurant-site
+```
 
+### 2. Open the Project
+
+Simply open the `index.html` file in your browser.
+
+Or use VS Code Live Server:
+
+```bash
+Right Click → Open with Live Server
+```
+
+---
+
+## ▶️ Usage
+
+1. Open the homepage.
+2. Browse featured dishes and restaurant information.
+3. Explore the menu section.
+4. View restaurant details and contact information.
+5. Experience a fully responsive restaurant website.
+
+---
+
+## 📸 Website Sections
+
+### 🏠 Home
+- Hero section with restaurant introduction
+- Call-to-action buttons
+- Featured food showcase
+
+### 🍔 Menu
+- Popular dishes
+- Pricing information
+- Food categories
+
+### 👨‍🍳 About
+- Restaurant story
+- Mission and values
+- Chef introduction
+
+### 📞 Contact
+- Contact form
+- Restaurant location
+- Social media links
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+- Responsive Web Design
+- HTML5 Semantic Elements
+- CSS Flexbox & Grid Layout
+- JavaScript DOM Manipulation
+- Website UI/UX Design Principles
+- Mobile-First Development
+
+---
+
+## 🌟 Future Enhancements
+
+- Online table reservation system
+- Food ordering functionality
+- Customer reviews and ratings
+- Dark mode support
+- Backend integration
+- Payment gateway integration
+- Admin dashboard for menu management
+
+---
+
+## 👨‍💻 Author
+
+**Chethan C Malli**
+
+- GitHub: https://github.com/Chethumalli
+- LinkedIn: https://linkedin.com/in/chethumalli
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
+
+Happy Coding! 🚀
