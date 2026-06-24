@@ -577,3 +577,10 @@ html{
         padding:25px;
     }
 }
+#menu{
+    background:
+    linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),
+    url("images/menu-bg.jpg");
+    background-size:cover;
+    background-position:center;
+}
