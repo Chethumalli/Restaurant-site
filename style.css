@@ -16,13 +16,37 @@ body {
     margin: auto;
 }
 
-header {
-    background: white;
-    padding: 15px 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+
+    background:rgba(0,0,0,0.25);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    border-bottom:1px solid rgba(255,255,255,0.1);
+
+    box-shadow:none;
+}
+
+.logo{
+    color:#fff;
+    font-weight:700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    margin:0 15px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d4a017;
 }
 
 .nav {
@@ -193,5 +217,363 @@ footer {
 
     .hero h1 {
         font-size: 28px;
+    }
+}
+
+.whatsapp-float{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+    z-index:999;
+    transition:.3s;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.1);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.card,
+.feature-box,
+.menu-item,
+.review{
+    transition:all .3s ease;
+}
+
+.card:hover,
+.feature-box:hover,
+.menu-item:hover,
+.review:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.btn-primary{
+    background:#d4a017;
+    color:#111;
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    background:#f0bc2d;
+}
+
+.btn-secondary{
+    background:transparent;
+    border:2px solid white;
+    color:white;
+}
+
+.hero-content{
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.menu-item{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.menu-item h3{
+    color:#8B0000;
+    margin-bottom:10px;
+}
+
+.menu-item span{
+    display:block;
+    font-size:22px;
+    font-weight:700;
+    color:#d4a017;
+    margin-bottom:10px;
+}
+.reservation-form{
+    max-width:700px;
+    margin:auto;
+}
+
+.reservation-form input,
+.reservation-form select{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+.page{
+    display:none;
+    min-height:80vh;
+    animation:fadeIn .5s ease;
+}
+
+.page.active{
+    display:block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.page{
+    display:none;
+    min-height:80vh;
+    animation:fadeIn .4s ease;
+}
+
+.page.active{
+    display:block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.menu-category{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.menu-category h3{
+    color:#8B0000;
+    margin-bottom:20px;
+    border-bottom:2px solid #d4a017;
+    padding-bottom:10px;
+}
+
+.menu-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.menu-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px dashed #ddd;
+}
+
+.menu-row span:first-child{
+    font-weight:500;
+}
+
+.menu-row span:last-child{
+    color:#8B0000;
+    font-weight:700;
+}
+.hero{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    color:white;
+}
+
+.hero-overlay{
+    width:100%;
+}
+
+.hero-content{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.tagline{
+    background:#d4a017;
+    color:#111;
+    padding:10px 20px;
+    border-radius:50px;
+    font-weight:600;
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+    color:#f5f5f5;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    margin-bottom:40px;
+}
+
+.hero-stats{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-top:20px;
+}
+
+.hero-stats h3{
+    color:#d4a017;
+    font-size:2rem;
+}
+
+.hero-stats p{
+    font-size:.95rem;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:2.5rem;
+}
+
+.hero-stats{
+    flex-direction:column;
+    gap:20px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+}
+.featured-food{
+    padding:100px 10%;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.75)
+    ),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    text-align:center;
+}
+
+.featured-food h2{
+    color:white;
+    font-size:2.8rem;
+    margin-bottom:50px;
+}
+
+.featured-food h2::after{
+    content:'';
+    width:90px;
+    height:4px;
+    background:#d4a017;
+    display:block;
+    margin:15px auto;
+}
+
+
+.food-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.food-card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:20px;
+    padding:30px;
+
+    transition:.4s;
+}
+
+.food-card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,0.15);
+}
+
+.food-card h3{
+    color:white;
+    margin-bottom:10px;
+}
+
+.food-card p{
+    color:#d4d4d4;
+}
+
+@media(max-width:768px){
+
+    .featured-food{
+        padding:60px 20px;
+    }
+
+    .featured-food h2{
+        font-size:2rem;
+    }
+
+    .food-card{
+        padding:25px;
     }
 }
