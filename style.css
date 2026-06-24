@@ -584,3 +584,10 @@ html{
     background-size:cover;
     background-position:center;
 }
+#reviews{
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("images/reviews-bg.jpg");
+    background-size:cover;
+    background-position:center;
+}
